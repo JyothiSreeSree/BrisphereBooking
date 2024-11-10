@@ -1,0 +1,34 @@
+.order-complete {
+    padding: 2rem;
+    max-width: 600px;
+    margin: 2rem auto;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-complete h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.order-complete p {
+    color: #666;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+.order-complete div {
+    margin-top: 1rem;
+    color: #555;
+    font-size: 1rem;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .order-complete {
+        padding: 1.5rem;
+    }
+}
